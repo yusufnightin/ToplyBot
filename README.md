@@ -1,4 +1,4 @@
-# Topluyo Professional Bot 3.7.0 — Seviye ve Rozet Paketi
+# Toplyot —
 
 > **v3.7.0:** Sunucuya özel XP/seviye sistemi, otomatik rol ve Topluyo rozet ödülleri, manuel badge yönetimi, ödül senkronizasyonu, liderlik tablosu ve JTML **Seviye & Rozet Merkezi** eklendi.
 
