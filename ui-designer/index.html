@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark" />
+    <title>JTML Studio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">J</span>
+        <div><strong>JTML Studio</strong><small>Topluyo arayüz tasarımcısı</small></div>
+      </div>
+      <div class="top-actions">
+        <span id="saveState" class="save-state">Yerel olarak kaydedildi</span>
+        <button id="presetButton" class="button ghost">Komut panelini yükle</button>
+        <button id="resetButton" class="button ghost">Sıfırla</button>
+        <button id="downloadButton" class="button">JTML indir</button>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <aside class="panel components-panel">
+        <div class="panel-heading"><span class="step">1</span><div><h2>Bileşenler</h2><p>Tıklayarak tasarıma ekle</p></div></div>
+        <div class="component-grid">
+          <button class="component" draggable="true" data-kind="heading"><span>H</span><b>Başlık</b><small>Başlık ve üst etiket</small></button>
+          <button class="component" draggable="true" data-kind="status"><span>●</span><b>Durum satırı</b><small>Çevrimiçi bilgisi</small></button>
+          <button class="component" draggable="true" data-kind="search"><span>⌕</span><b>Arama</b><small>Geniş arama kutusu</small></button>
+          <button class="component" draggable="true" data-kind="card"><span>▦</span><b>Menü kartı</b><small>İkon, açıklama, buton</small></button>
+          <button class="component" draggable="true" data-kind="command"><span>!</span><b>Komut kartı</b><small>Kullanım ve işlem butonu</small></button>
+          <button class="component" draggable="true" data-kind="quick"><span>⚡</span><b>Hızlı işlem</b><small>Yan menü satırı</small></button>
+          <button class="component" draggable="true" data-kind="nav"><span>⌂</span><b>Alt menü</b><small>Navigasyon butonu</small></button>
+          <button class="component" draggable="true" data-kind="button"><span>▣</span><b>Buton</b><small>Sürükle veya tıkla</small></button>
+          <button class="component" draggable="true" data-kind="input"><span>⌨</span><b>Metin alanı</b><small>Sürükle veya tıkla</small></button>
+          <button class="component" draggable="true" data-kind="row"><span>⇔</span><b>Yatay grup</b><small>İçine bileşen bırak</small></button>
+          <button class="component" draggable="true" data-kind="column"><span>⇅</span><b>Dikey grup</b><small>İçine bileşen bırak</small></button>
+        </div>
+
+        <div class="section-title"><h3>İçerik</h3><span>Markdown</span></div>
+        <label class="field">
+          <span>Üst metin</span>
+          <textarea id="markdownInput" rows="8" placeholder="# Başlık&#10;Açıklamanızı yazın..."></textarea>
+        </label>
+
+        <div class="section-title"><h3>Tema</h3><span>Görünüm</span></div>
+        <div class="theme-row">
+          <label class="color-field"><input id="accentInput" type="color" value="#7c5cff" /><span>Vurgu</span></label>
+          <button class="theme-choice active" data-theme="dark">Koyu</button>
+          <button class="theme-choice" data-theme="light">Açık</button>
+        </div>
+      </aside>
+
+      <section class="panel preview-panel">
+        <div class="panel-heading preview-heading">
+          <div><span class="step">2</span><div><h2>Canlı önizleme</h2><p>Sonucun yaklaşık görünümü</p></div></div>
+          <div class="viewport-switch">
+            <button class="active" data-width="desktop" title="Masaüstü">▰</button>
+            <button data-width="mobile" title="Mobil">▯</button>
+          </div>
+        </div>
+        <div class="preview-stage">
+          <div id="previewDevice" class="preview-device">
+            <div class="app-chrome"><i></i><i></i><i></i><span>Topluyo mesaj önizlemesi</span></div>
+            <article class="message-card">
+              <div id="markdownPreview" class="markdown-view"></div>
+              <div class="canvas-toolbar">
+                <div id="breadcrumbs" class="breadcrumbs"></div>
+                <span class="real-preview-badge">● GERÇEK TOPLUYO ÖNİZLEMESİ</span>
+              </div>
+              <div id="canvas" class="design-canvas" data-container=""></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <aside class="panel code-panel">
+        <div class="panel-heading"><span class="step">3</span><div><h2>Düzenle</h2><p>Seçili bileşenin tüm özellikleri</p></div></div>
+        <div class="editor-tabs">
+          <button class="active" data-tab="properties">Özellikler</button>
+          <button data-tab="code">JTML kodu</button>
+        </div>
+        <div id="propertiesTab" class="tab-content">
+          <div id="emptyInspector" class="empty-inspector">Özelliklerini değiştirmek için tuvalde bir bileşen seç.</div>
+          <form id="inspector" class="inspector" hidden>
+            <div class="selected-heading"><span id="selectedIcon">▣</span><div><b id="selectedType">Buton</b><small id="selectedPath"></small></div></div>
+            <label class="property text-property"><span>Görünen metin</span><input name="text" type="text" /></label>
+            <label class="property icon-property"><span>İkon / emoji</span><input name="icon" type="text" placeholder="⚙️" /></label>
+            <label class="property description-property"><span>Açıklama</span><input name="description" type="text" /></label>
+            <label class="property input-property"><span>Yer tutucu</span><input name="placeholder" type="text" /></label>
+            <label class="property name-property"><span>Form alanı</span><input name="name" type="text" /></label>
+            <label class="property value-property"><span>Eylem değeri</span><input name="value" type="text" /></label>
+            <label class="property layout-property"><span>Yerleşim</span><select name="ui"><option value="flex-y">Dikey</option><option value="flex-x">Yatay</option></select></label>
+            <label class="property gap-property">
+              <span>Boşluk</span>
+              <span class="range-control">
+                <input name="gap" type="range" min="0" max="2" step="0.1" aria-label="Boşluğu sürükleyerek ayarla" />
+                <span class="number-entry"><input id="gapOutput" name="gap" type="number" min="0" max="2" step="0.1" inputmode="decimal" aria-label="Boşluk değerini yaz" /><small>rem</small></span>
+              </span>
+            </label>
+            <label class="property size-property">
+              <span>Genişlik</span>
+              <span class="range-control">
+                <input name="_width" type="range" min="25" max="100" step="1" aria-label="Genişliği sürükleyerek ayarla" />
+                <span class="number-entry"><input id="widthOutput" name="_width" type="number" min="25" max="100" step="1" inputmode="numeric" aria-label="Genişlik değerini yaz" /><small>%</small></span>
+              </span>
+            </label>
+            <label class="property size-property">
+              <span>Yükseklik</span>
+              <span class="range-control">
+                <input name="_height" type="range" min="32" max="240" step="1" aria-label="Yüksekliği sürükleyerek ayarla" />
+                <span class="number-entry"><input id="heightOutput" name="_height" type="number" min="32" max="240" step="1" inputmode="numeric" aria-label="Yükseklik değerini yaz" /><small>px</small></span>
+              </span>
+            </label>
+            <label class="property size-property">
+              <span>Köşe yuvarlaklığı</span>
+              <span class="range-control">
+                <input name="_radius" type="range" min="0" max="30" step="1" aria-label="Köşe yuvarlaklığını sürükleyerek ayarla" />
+                <span class="number-entry"><input id="radiusOutput" name="_radius" type="number" min="0" max="30" step="1" inputmode="numeric" aria-label="Köşe yuvarlaklığı değerini yaz" /><small>px</small></span>
+              </span>
+            </label>
+            <label class="property size-property">
+              <span>İç boşluk</span>
+              <span class="range-control">
+                <input name="_padding" type="range" min="0" max="48" step="1" aria-label="İç boşluğu sürükleyerek ayarla" />
+                <span class="number-entry"><input id="paddingOutput" name="_padding" type="number" min="0" max="48" step="1" inputmode="numeric" aria-label="İç boşluk değerini yaz" /><small>px</small></span>
+              </span>
+            </label>
+            <p class="platform-note">Topluyo kesin piksel ölçülerini kendi ekranına göre belirler. Genişlik, kolon oranı olarak yaklaşık uygulanır.</p>
+            <button type="button" id="enterButton" class="enter-button">↳ Alt içeriğine gir</button>
+            <div class="inspector-actions">
+              <button type="button" id="moveUpButton">↑ Yukarı</button>
+              <button type="button" id="moveDownButton">↓ Aşağı</button>
+              <button type="button" id="duplicateButton">⧉ Çoğalt</button>
+              <button type="button" id="deleteButton" class="danger">⌫ Sil</button>
+            </div>
+          </form>
+        </div>
+        <div id="codeTab" class="tab-content" hidden>
+          <div class="code-status"><span id="validationDot"></span><span id="validationText">Geçerli JTML</span></div>
+          <textarea id="codeInput" class="code-editor" spellcheck="false"></textarea>
+          <div id="errorMessage" class="error-message" hidden></div>
+          <button id="copyButton" class="button copy-button">Kodu kopyala</button>
+          <p class="hint">Çıktıyı bot mesajının sonuna ekleyebilir veya <code>!embed bumote</code> ile kullanabilirsin.</p>
+        </div>
+      </aside>
+    </main>
+
+    <div id="toast" class="toast" role="status"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
