@@ -1,0 +1,118 @@
+{
+  "prefix": "!",
+  "pluginProfile": "management",
+  "ownerUserIds": [
+    25426
+  ],
+  "adminUserIds": [],
+  "moderatorUserIds": [],
+  "defaultGroupId": 123,
+  "channelGroups": {
+    "KANAL_ID": 123
+  },
+  "plugins": [
+    "core",
+    "settings",
+    "roles",
+    "welcome",
+    "moderation",
+    "registration",
+    "support",
+    "customCommands",
+    "automation",
+    "statistics",
+    "interactions",
+    "embeds",
+    "admin",
+    "apiManagement",
+    "system",
+    "leveling",
+    "liveStreams"
+  ],
+  "httpServer": {
+    "enabled": false,
+    "host": "127.0.0.1",
+    "port": 3210,
+    "publicBaseUrl": "",
+    "autoTunnel": false,
+    "cloudflaredPath": "tools/cloudflared.exe",
+    "tunnelTimeoutMs": 90000
+  },
+  "features": {
+    "replyUnknownCommand": false,
+    "welcomeMessage": "Hoş geldin, kullanıcı #{userId}!",
+    "leaveMessage": "Kullanıcı #{userId} gruptan ayrıldı.",
+    "kickMessage": "Kullanıcı #{userId} gruptan çıkarıldı.",
+    "autoroleEnabled": false,
+    "autoroleRoleIds": [],
+    "turboThankYou": "Gönderdiğin {quantity} Turbo için teşekkürler!"
+  },
+  "connection": {
+    "websocketUrl": "wss://topluyo.com/!bot",
+    "websocketOrigin": "https://topluyo.com",
+    "websocketUserAgent": "TopluyoBOTJS/1.5.0 topluyo-professional-bot/3.7.0",
+    "handshakeTimeoutMs": 15000,
+    "websocketHeaders": {}
+  },
+  "interactions": {
+    "autoGenerateBumote": true,
+    "attachBumote": true
+  },
+  "commandMenu": {
+    "enabled": true,
+    "openOnBarePrefix": true,
+    "ownerOnly": true,
+    "sessionMinutes": 10,
+    "commandsPerPage": 7,
+    "settingsPerPage": 8,
+    "showQuickRun": true,
+    "showTextSummary": false,
+    "accentColor": "#ff83c8"
+  },
+  "serverDefaults": {},
+  "supportTemplate": {
+    "ownerUserId": 25426,
+    "levelRoleAssetDirectory": "C:\\Users\\User\\Desktop\\Yeni klasör",
+    "operationDelayMs": 180
+  },
+  "maintenance": {
+    "maxBackupsPerGroup": 20
+  },
+  "liveStreams": {
+    "defaultMention": "@millet",
+    "defaultPollMinutes": 3,
+    "defaultTemplate": "{mention}\n🔴 {name} şu anda {platform} üzerinde canlı!\n{title}\n👉 {url}",
+    "defaultVideoTemplate": "{mention}\n▶️ {name} yeni bir video paylaştı!\n{title}\n👉 {url}",
+    "timeoutMs": 12000,
+    "kick": {
+      "clientId": "",
+      "clientSecret": "",
+      "accessToken": ""
+    },
+    "twitch": {
+      "clientId": "",
+      "clientSecret": "",
+      "accessToken": ""
+    },
+    "youtube": {
+      "apiKey": ""
+    }
+  },
+  "api": {
+    "flushIntervalMs": 35,
+    "maxBatchSize": 40,
+    "maxConcurrentBatches": 2,
+    "timeoutMs": 15000,
+    "retryAttempts": 2,
+    "retryBaseDelayMs": 250,
+    "cacheTtlMs": 5000,
+    "maxCacheEntries": 1000,
+    "maxQueuedRequests": 2000
+  },
+  "progress": {
+    "enabled": true,
+    "menuOnly": false,
+    "updateThrottleMs": 350,
+    "longCommands": []
+  }
+}

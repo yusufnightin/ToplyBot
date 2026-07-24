@@ -1,0 +1,23 @@
+{
+  "name": "topluyo-professional-bot",
+  "version": "3.7.0",
+  "private": true,
+  "description": "Topluyo için sunucuya özel XP/seviye, otomatik rol ve rozet ödülleri, hızlı API yönetimi ve akıllı JTML kontrol paneli",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "ui": "node scripts/ui-designer.js",
+    "check": "node scripts/check.js",
+    "test": "node --test",
+    "commands": "node scripts/list-commands.js",
+    "diagnose": "node scripts/diagnose-connection.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
