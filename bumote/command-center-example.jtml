@@ -1,0 +1,30 @@
+~{
+  "type": "box",
+  "ui": "flex-y",
+  "gap": 0.65,
+  "children": [
+    {
+      "type": "flex-x",
+      "children": [
+        { "type": "bumote", "name": "menu_action", "value": "home", "text": "🏠 Ana Menü" },
+        { "type": "bumote", "name": "menu_action", "value": "refresh", "text": "🔄 Yenile" }
+      ]
+    },
+    {
+      "type": "flex-x",
+      "children": [
+        { "type": "input", "ui": "space", "name": "query", "placeholder": "Komut adı veya açıklama ara..." },
+        { "type": "bumote", "name": "menu_action", "value": "search", "text": "🔎 Ara" }
+      ]
+    },
+    {
+      "type": "flex-y",
+      "children": [
+        { "type": "bumote", "name": "menu_action", "value": "section:general", "text": "✨ Genel ve Yardım" },
+        { "type": "bumote", "name": "menu_action", "value": "section:moderation", "text": "🛡️ Moderasyon" },
+        { "type": "bumote", "name": "menu_action", "value": "section:roles", "text": "🎭 Rol Yönetimi" },
+        { "type": "bumote", "name": "menu_action", "value": "section:management", "text": "⚙️ Yönetim" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+~{
+  "type": "box",
+  "ui": "flex-y",
+  "gap": 0.5,
+  "children": [
+    {
+      "type": "bumote",
+      "name": "action_id",
+      "value": "yardim",
+      "text": "Yardım"
+    },
+    {
+      "type": "bumote",
+      "name": "action_id",
+      "value": "mavi-rol",
+      "text": "Mavi Rol"
+    }
+  ]
+}

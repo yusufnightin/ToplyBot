@@ -1,0 +1,4 @@
+🤖 Kontrol Paneli
+Bir işlem seçin.
+
+~{"type":"box","ui":"flex-y","children":[{"type":"bumote","name":"menu_action","value":"home","text":"🏠 Ana Menü"},{"type":"bumote","name":"menu_action","value":"close","text":"✖ Kapat"}]}
