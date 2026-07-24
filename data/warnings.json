@@ -1,0 +1,18 @@
+{
+  "6875:8772": [
+    {
+      "id": 1,
+      "reason": "Panel üzerinden uygulandı.",
+      "moderatorUserId": 25426,
+      "source": "manual",
+      "createdAt": "2026-07-22T23:03:46.213Z"
+    },
+    {
+      "id": 2,
+      "reason": "TEst",
+      "moderatorUserId": 25426,
+      "source": "manual",
+      "createdAt": "2026-07-22T23:07:55.011Z"
+    }
+  ]
+}

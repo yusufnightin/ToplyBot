@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "groupId": 6875,
+    "userId": 25426,
+    "channelId": 44366,
+    "sourceChannelId": 44366,
+    "panelId": null,
+    "subject": "test",
+    "status": "closed",
+    "createdAt": "2026-07-22T23:10:32.518Z",
+    "closedAt": "2026-07-23T20:52:36.468Z",
+    "closedBy": 0,
+    "messages": [],
+    "closeReason": "channel-missing"
+  },
+  {
+    "id": 2,
+    "groupId": 6875,
+    "userId": 8772,
+    "channelId": 44366,
+    "sourceChannelId": 44366,
+    "panelId": null,
+    "subject": "test",
+    "status": "closed",
+    "createdAt": "2026-07-22T23:11:02.858Z",
+    "closedAt": "2026-07-24T22:43:08.265Z",
+    "closedBy": 0,
+    "messages": [],
+    "closeReason": "support-template-rebuild"
+  },
+  {
+    "id": 3,
+    "groupId": 6875,
+    "userId": 25426,
+    "channelId": 45952,
+    "sourceChannelId": 45798,
+    "panelId": 3,
+    "subject": "test",
+    "status": "closed",
+    "createdAt": "2026-07-23T20:52:36.923Z",
+    "closedAt": "2026-07-23T20:52:52.968Z",
+    "closedBy": 25426,
+    "messages": []
+  },
+  {
+    "id": 4,
+    "groupId": 6875,
+    "userId": 20574,
+    "channelId": 46513,
+    "sourceChannelId": 45798,
+    "panelId": 3,
+    "subject": "Panel üzerinden destek talebi",
+    "status": "closed",
+    "createdAt": "2026-07-24T21:36:48.117Z",
+    "closedAt": "2026-07-24T22:43:08.265Z",
+    "closedBy": 0,
+    "messages": [],
+    "closeReason": "support-template-rebuild"
+  }
+]

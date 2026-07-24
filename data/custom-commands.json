@@ -1,0 +1,80 @@
+{
+  "6875:kurallar": {
+    "name": "kurallar",
+    "type": "text",
+    "content": "Kurallar kanalı: #45794",
+    "permission": "member",
+    "title": "kurallar",
+    "roleId": null,
+    "enabled": true,
+    "uses": 0,
+    "createdBy": 25426,
+    "createdAt": "2026-07-23T18:42:42.620Z",
+    "template": "support-v2"
+  },
+  "6875:destekbilgi": {
+    "name": "destekbilgi",
+    "type": "text",
+    "content": "Destek kanalı: #45798. Ticket açmak için !ticket aç <sorun>",
+    "permission": "member",
+    "title": "destekbilgi",
+    "roleId": null,
+    "enabled": true,
+    "uses": 0,
+    "createdBy": 25426,
+    "createdAt": "2026-07-23T18:42:42.620Z",
+    "template": "support-v2"
+  },
+  "6875:sistembilgi": {
+    "name": "sistembilgi",
+    "type": "text",
+    "content": "Sistem durumu kanalı: #45797",
+    "permission": "member",
+    "title": "sistembilgi",
+    "roleId": null,
+    "enabled": true,
+    "uses": 0,
+    "createdBy": 25426,
+    "createdAt": "2026-07-23T18:42:42.620Z",
+    "template": "support-v2"
+  },
+  "6991:kurallar": {
+    "name": "kurallar",
+    "type": "text",
+    "content": "Kurallar kanalı: #46551",
+    "permission": "member",
+    "title": "kurallar",
+    "roleId": null,
+    "enabled": true,
+    "uses": 0,
+    "createdBy": 25426,
+    "createdAt": "2026-07-24T22:58:53.524Z",
+    "template": "support-v4"
+  },
+  "6991:destekbilgi": {
+    "name": "destekbilgi",
+    "type": "text",
+    "content": "Destek kanalı: #46562. Ticket açmak için !ticket aç <sorun>",
+    "permission": "member",
+    "title": "destekbilgi",
+    "roleId": null,
+    "enabled": true,
+    "uses": 0,
+    "createdBy": 25426,
+    "createdAt": "2026-07-24T22:58:53.524Z",
+    "template": "support-v4"
+  },
+  "6991:sistembilgi": {
+    "name": "sistembilgi",
+    "type": "text",
+    "content": "Sistem durumu kanalı: #46554",
+    "permission": "member",
+    "title": "sistembilgi",
+    "roleId": null,
+    "enabled": true,
+    "uses": 0,
+    "createdBy": 25426,
+    "createdAt": "2026-07-24T22:58:53.524Z",
+    "template": "support-v4"
+  }
+}

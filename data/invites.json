@@ -1,0 +1,27 @@
+{
+  "6875": {
+    "codes": {},
+    "claims": [],
+    "pending": {
+      "8772": {
+        "joinedAt": "2026-07-22T23:08:03.053Z",
+        "claimed": false
+      },
+      "24979": {
+        "joinedAt": "2026-07-24T19:16:47.954Z",
+        "claimed": false
+      },
+      "25790": {
+        "joinedAt": "2026-07-22T23:21:36.220Z",
+        "claimed": false
+      }
+    },
+    "leaves": [
+      {
+        "userId": 24979,
+        "at": "2026-07-24T19:16:28.791Z",
+        "claimId": null
+      }
+    ]
+  }
+}

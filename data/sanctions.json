@@ -1,0 +1,15 @@
+[
+  {
+    "id": "1784761535004-5772",
+    "type": "mute",
+    "groupId": 6875,
+    "userId": 5772,
+    "roleId": 5247,
+    "reason": "Panel üzerinden uygulandı.",
+    "moderatorUserId": 25426,
+    "createdAt": "2026-07-22T23:05:35.004Z",
+    "expiresAt": "2026-07-22T23:15:35.003Z",
+    "active": false,
+    "expiredAt": "2026-07-22T23:15:46.863Z"
+  }
+]

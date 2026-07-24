@@ -1,0 +1,2045 @@
+[
+  {
+    "id": "1784754431841-f905e8",
+    "type": "settings.channel",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-22T21:07:11.841Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "announcements",
+      "value": "#duyurular"
+    }
+  },
+  {
+    "id": "1784758129428-3767c8",
+    "type": "settings.menu_toggle",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-22T22:08:49.428Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "moderation.blockLinks",
+      "value": true
+    }
+  },
+  {
+    "id": "1784758156009-df310a",
+    "type": "settings.menu_toggle",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-22T22:09:16.009Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "tickets.deleteChannelOnClose",
+      "value": true
+    }
+  },
+  {
+    "id": "1784758212007-23cd4b",
+    "type": "settings.menu_toggle",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-22T22:10:12.007Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "welcome.cardEnabled",
+      "value": true
+    }
+  },
+  {
+    "id": "1784758227006-456529",
+    "type": "settings.menu_update",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-22T22:10:27.006Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "welcome.background",
+      "value": "#151922"
+    }
+  },
+  {
+    "id": "1784759292211-849cda",
+    "type": "settings.menu_reset",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-22T22:28:12.211Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "channels.welcome",
+      "value": ""
+    }
+  },
+  {
+    "id": "1784759334624-75dca6",
+    "type": "settings.menu_toggle",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-22T22:28:54.624Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "welcome.dmEnabled",
+      "value": true
+    }
+  },
+  {
+    "id": "1784760744128-371c27",
+    "type": "channels.sort",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-22T22:52:24.128Z",
+    "data": {
+      "actorUserId": 25426,
+      "ids": [
+        44366,
+        44365,
+        44364,
+        45378,
+        44363,
+        45377,
+        45376,
+        45375,
+        45374,
+        44362,
+        44367,
+        44368
+      ],
+      "source": "command-menu"
+    }
+  },
+  {
+    "id": "1784760787811-37ce36",
+    "type": "settings.menu_update",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-22T22:53:07.811Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "channels.welcome",
+      "value": "44364",
+      "channelName": "duyurular"
+    }
+  },
+  {
+    "id": "1784760874068-e26211",
+    "type": "template.support.install",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": null,
+    "createdAt": "2026-07-22T22:54:34.068Z",
+    "data": {
+      "groupId": 6875,
+      "roles": {
+        "member": 5181,
+        "support": 5244,
+        "moderator": 5245,
+        "admin": 5246,
+        "muted": 5247
+      },
+      "channels": {
+        "rules": 44363,
+        "announcements": 44364,
+        "welcome": 45440,
+        "support": 45441,
+        "commands": 45442,
+        "staff": 45443,
+        "logs": 45444
+      },
+      "createdRoles": [
+        "Destek Ekibi",
+        "Moderatör",
+        "Yönetici",
+        "Susturulmuş"
+      ],
+      "createdChannels": [
+        "hos-geldin",
+        "destek",
+        "bot-komut",
+        "ekip-sohbet",
+        "yonetim-log"
+      ],
+      "ticketPanelPostId": 712158,
+      "installedBy": 25426,
+      "installedAt": "2026-07-22T22:54:34.068Z"
+    }
+  },
+  {
+    "id": "1784760923616-d72f4c",
+    "type": "settings.menu_update",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-22T22:55:23.616Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "channels.welcome",
+      "value": "44364",
+      "channelName": "duyurular"
+    }
+  },
+  {
+    "id": "1784761346338-858bfb",
+    "type": "role.autorole",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 8772,
+    "createdAt": "2026-07-22T23:02:26.338Z",
+    "data": {
+      "targetUserId": 8772,
+      "roleIds": [
+        5181
+      ]
+    }
+  },
+  {
+    "id": "1784761347542-95e559",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 8772,
+    "createdAt": "2026-07-22T23:02:27.542Z",
+    "data": {
+      "targetUserId": 8772,
+      "memberCount": 3
+    }
+  },
+  {
+    "id": "1784761426231-879f05",
+    "type": "moderation.warning",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": 8772,
+    "createdAt": "2026-07-22T23:03:46.231Z",
+    "data": {
+      "actorUserId": 25426,
+      "targetUserId": 8772,
+      "reason": "Panel üzerinden uygulandı.",
+      "warningId": 1,
+      "warningCount": 1,
+      "source": "manual",
+      "deleted": false
+    }
+  },
+  {
+    "id": "1784761447284-0e1932",
+    "type": "moderation.purge",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-22T23:04:07.284Z",
+    "data": {
+      "actorUserId": 25426,
+      "channelId": 44366,
+      "requested": 10,
+      "deleted": 10,
+      "targetUserId": null
+    }
+  },
+  {
+    "id": "1784761517865-9954a8",
+    "type": "moderation.purge",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": 8772,
+    "createdAt": "2026-07-22T23:05:17.865Z",
+    "data": {
+      "actorUserId": 25426,
+      "channelId": 44366,
+      "requested": 10,
+      "deleted": 5,
+      "targetUserId": 8772
+    }
+  },
+  {
+    "id": "1784761535005-dbc15e",
+    "type": "moderation.timeout",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": 5772,
+    "createdAt": "2026-07-22T23:05:35.005Z",
+    "data": {
+      "actorUserId": 25426,
+      "targetUserId": 5772,
+      "reason": "Panel üzerinden uygulandı.",
+      "durationMs": 600000,
+      "roleId": 5247
+    }
+  },
+  {
+    "id": "1784761553319-a6c859",
+    "type": "member.kicked_event",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 5772,
+    "createdAt": "2026-07-22T23:05:53.319Z",
+    "data": {
+      "targetUserId": 5772
+    }
+  },
+  {
+    "id": "1784761553325-08344c",
+    "type": "moderation.ban",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": 5772,
+    "createdAt": "2026-07-22T23:05:53.325Z",
+    "data": {
+      "actorUserId": 25426,
+      "targetUserId": 5772,
+      "reason": "Panel üzerinden uygulandı.",
+      "durationMs": 600000
+    }
+  },
+  {
+    "id": "1784761598519-1fe167",
+    "type": "moderation.purge",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-22T23:06:38.519Z",
+    "data": {
+      "actorUserId": 25426,
+      "channelId": 44366,
+      "requested": 10,
+      "deleted": 10,
+      "targetUserId": null
+    }
+  },
+  {
+    "id": "1784761645163-e36b45",
+    "type": "member.kicked_event",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 8772,
+    "createdAt": "2026-07-22T23:07:25.163Z",
+    "data": {
+      "targetUserId": 8772
+    }
+  },
+  {
+    "id": "1784761645166-574009",
+    "type": "moderation.ban",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": 8772,
+    "createdAt": "2026-07-22T23:07:25.166Z",
+    "data": {
+      "actorUserId": 25426,
+      "targetUserId": 8772,
+      "reason": "Panel üzerinden uygulandı.",
+      "durationMs": 600000
+    }
+  },
+  {
+    "id": "1784761657211-bed508",
+    "type": "moderation.unban",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": 8772,
+    "createdAt": "2026-07-22T23:07:37.211Z",
+    "data": {
+      "actorUserId": 25426,
+      "targetUserId": 8772,
+      "removed": 1
+    }
+  },
+  {
+    "id": "1784761675014-d2ad36",
+    "type": "moderation.warning",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": 8772,
+    "createdAt": "2026-07-22T23:07:55.014Z",
+    "data": {
+      "actorUserId": 25426,
+      "targetUserId": 8772,
+      "reason": "TEst",
+      "warningId": 2,
+      "warningCount": 2,
+      "source": "manual",
+      "deleted": false
+    }
+  },
+  {
+    "id": "1784761684288-e7dae9",
+    "type": "role.autorole",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 8772,
+    "createdAt": "2026-07-22T23:08:04.288Z",
+    "data": {
+      "targetUserId": 8772,
+      "roleIds": [
+        5181
+      ]
+    }
+  },
+  {
+    "id": "1784761685497-670a02",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 8772,
+    "createdAt": "2026-07-22T23:08:05.497Z",
+    "data": {
+      "targetUserId": 8772,
+      "memberCount": 3
+    }
+  },
+  {
+    "id": "1784761696388-13707d",
+    "type": "moderation.purge",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": 8772,
+    "createdAt": "2026-07-22T23:08:16.388Z",
+    "data": {
+      "actorUserId": 25426,
+      "channelId": 44366,
+      "requested": 10,
+      "deleted": 4,
+      "targetUserId": 8772
+    }
+  },
+  {
+    "id": "1784761820641-e2e935",
+    "type": "settings.menu_toggle",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-22T23:10:20.641Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "tickets.deleteChannelOnClose",
+      "value": true
+    }
+  },
+  {
+    "id": "1784761834728-2dc34f",
+    "type": "ticket.open",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-22T23:10:34.728Z",
+    "data": {
+      "targetUserId": 25426,
+      "ticketId": 1,
+      "channelId": 44366,
+      "subject": "test"
+    }
+  },
+  {
+    "id": "1784761864998-2417b9",
+    "type": "ticket.open",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 8772,
+    "createdAt": "2026-07-22T23:11:04.998Z",
+    "data": {
+      "targetUserId": 8772,
+      "ticketId": 2,
+      "channelId": 44366,
+      "subject": "test"
+    }
+  },
+  {
+    "id": "1784762148207-a9ba7d",
+    "type": "moderation.timeout_expired",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 5772,
+    "createdAt": "2026-07-22T23:15:48.207Z",
+    "data": {
+      "targetUserId": 5772,
+      "roleId": 5247
+    }
+  },
+  {
+    "id": "1784762161862-a5e7bc",
+    "type": "moderation.ban_expired",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 5772,
+    "createdAt": "2026-07-22T23:16:01.862Z",
+    "data": {
+      "targetUserId": 5772,
+      "banId": "1784761553010-5772"
+    }
+  },
+  {
+    "id": "1784762498087-432404",
+    "type": "role.autorole",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25790,
+    "createdAt": "2026-07-22T23:21:38.087Z",
+    "data": {
+      "targetUserId": 25790,
+      "roleIds": [
+        5181
+      ]
+    }
+  },
+  {
+    "id": "1784762499255-403359",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25790,
+    "createdAt": "2026-07-22T23:21:39.255Z",
+    "data": {
+      "targetUserId": 25790,
+      "memberCount": 4
+    }
+  },
+  {
+    "id": "1784763501555-bd96eb",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-22T23:38:21.555Z",
+    "data": {
+      "targetUserId": 25426,
+      "memberCount": 4,
+      "source": "repair-test"
+    }
+  },
+  {
+    "id": "1784763566022-ff67f2",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-22T23:39:26.022Z",
+    "data": {
+      "targetUserId": 25426,
+      "memberCount": 4,
+      "source": "repair-test"
+    }
+  },
+  {
+    "id": "1784764012918-c1b6b8",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-22T23:46:52.918Z",
+    "data": {
+      "targetUserId": 25426,
+      "memberCount": 4,
+      "source": "repair-test"
+    }
+  },
+  {
+    "id": "1784764208495-7c8f30",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-22T23:50:08.495Z",
+    "data": {
+      "targetUserId": 25426,
+      "memberCount": 4,
+      "source": "manual-test"
+    }
+  },
+  {
+    "id": "1784831843750-320ff7",
+    "type": "backup.create",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T18:37:23.750Z",
+    "data": {
+      "actorUserId": null,
+      "backupId": "6875-1784831843741-b98704",
+      "reason": "scheduled",
+      "label": "Otomatik zamanlanmış yedek"
+    }
+  },
+  {
+    "id": "1784831851981-312489",
+    "type": "backup.create",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T18:37:31.981Z",
+    "data": {
+      "actorUserId": 25426,
+      "backupId": "6875-1784831851979-5f5ad2",
+      "reason": "pre-template-install",
+      "label": "Destek şablonu v2 öncesi"
+    }
+  },
+  {
+    "id": "1784831973974-4772a4",
+    "type": "backup.create",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T18:39:33.974Z",
+    "data": {
+      "actorUserId": 25426,
+      "backupId": "6875-1784831973971-5732c9",
+      "reason": "pre-template-install",
+      "label": "Destek şablonu v2 öncesi"
+    }
+  },
+  {
+    "id": "1784832102105-10c34a",
+    "type": "backup.create",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T18:41:42.105Z",
+    "data": {
+      "actorUserId": 25426,
+      "backupId": "6875-1784832102095-22cbee",
+      "reason": "pre-template-install",
+      "label": "Destek şablonu v2 öncesi"
+    }
+  },
+  {
+    "id": "1784832167661-a6198d",
+    "type": "template.support.install",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T18:42:47.661Z",
+    "data": {
+      "groupId": 6875,
+      "version": 2,
+      "roles": {
+        "member": 5181,
+        "verified": 5274,
+        "support": 5244,
+        "moderator": 5245,
+        "admin": 5246,
+        "muted": 5247
+      },
+      "channels": {
+        "welcome": 45793,
+        "rules": 45794,
+        "announcements": 45795,
+        "faq": 45796,
+        "status": 45797,
+        "support": 45798,
+        "bugs": 45799,
+        "suggestions": 45800,
+        "commands": 45801,
+        "staff": 45802,
+        "logs": 45803
+      },
+      "createdRoles": [],
+      "createdChannels": [
+        "hos-geldin",
+        "kurallar",
+        "duyurular",
+        "sikca-sorulanlar",
+        "sistem-durumu",
+        "destek",
+        "hata-bildirimi",
+        "oneriler",
+        "bot-komut",
+        "ekip-sohbet",
+        "yonetim-log"
+      ],
+      "recoveredRoles": [],
+      "recoveredChannels": [],
+      "ticketPanelPostId": 714951,
+      "seedResult": {
+        "skipped": false,
+        "seeded": [
+          "rules",
+          "announcements",
+          "faq",
+          "status",
+          "commands",
+          "bugs",
+          "suggestions"
+        ]
+      },
+      "welcomeRepair": {
+        "groupId": 6875,
+        "channelId": 45793,
+        "botUserId": 25469,
+        "test": null
+      },
+      "verification": {
+        "ok": false,
+        "checkedAt": "2026-07-23T18:42:47.653Z",
+        "missingRoles": [],
+        "missingChannels": [],
+        "staleSettingChannels": [
+          "leave=45803",
+          "logs=45803"
+        ],
+        "issues": [
+          "Geçersiz kanal ayarı: leave=45803",
+          "Geçersiz kanal ayarı: logs=45803"
+        ],
+        "roleCount": 7,
+        "channelCount": 10,
+        "roles": {
+          "member": 5181,
+          "verified": 5274,
+          "support": 5244,
+          "moderator": 5245,
+          "admin": 5246,
+          "muted": 5247
+        },
+        "channels": {
+          "welcome": 45793,
+          "rules": 45794,
+          "announcements": 45795,
+          "faq": 45796,
+          "status": 45797,
+          "support": 45798,
+          "bugs": 45799,
+          "suggestions": 45800,
+          "commands": 45801,
+          "staff": 45802,
+          "logs": 45803
+        }
+      },
+      "installedBy": 25426,
+      "botUserId": 25469,
+      "backupId": "6875-1784832102095-22cbee",
+      "installedAt": "2026-07-23T18:42:47.658Z"
+    }
+  },
+  {
+    "id": "1784832411780-695663",
+    "type": "settings.menu_update",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T18:46:51.780Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "channels.welcome",
+      "value": "45793",
+      "channelName": "hos-geldin"
+    }
+  },
+  {
+    "id": "1784832429783-e88aca",
+    "type": "settings.menu_update",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T18:47:09.783Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "channels.welcome",
+      "value": "45793",
+      "channelName": "hos-geldin"
+    }
+  },
+  {
+    "id": "1784832449573-121145",
+    "type": "settings.menu_update",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T18:47:29.573Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "channels.welcome",
+      "value": "45793",
+      "channelName": "hos-geldin"
+    }
+  },
+  {
+    "id": "1784832482169-4341bd",
+    "type": "settings.menu_toggle",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T18:48:02.169Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "registration.enabled",
+      "value": true
+    }
+  },
+  {
+    "id": "1784832493172-ca18bf",
+    "type": "settings.menu_toggle",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T18:48:13.172Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "tickets.deleteChannelOnClose",
+      "value": true
+    }
+  },
+  {
+    "id": "1784832573022-33ff07",
+    "type": "settings.menu_update",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T18:49:33.022Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "channels.logs",
+      "value": "45803"
+    }
+  },
+  {
+    "id": "1784832632964-72cee5",
+    "type": "backup.create",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T18:50:32.964Z",
+    "data": {
+      "actorUserId": 25426,
+      "backupId": "6875-1784832632955-4b8bd6",
+      "reason": "pre-system-repair",
+      "label": "Sistem onarımı öncesi otomatik yedek"
+    }
+  },
+  {
+    "id": "1784832632998-881c87",
+    "type": "backup.create",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T18:50:32.998Z",
+    "data": {
+      "actorUserId": 25426,
+      "backupId": "6875-1784832632991-dfce3f",
+      "reason": "pre-template-install",
+      "label": "Destek şablonu v2 öncesi"
+    }
+  },
+  {
+    "id": "1784832696321-ebb4d8",
+    "type": "template.support.install",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T18:51:36.321Z",
+    "data": {
+      "groupId": 6875,
+      "version": 2,
+      "roles": {
+        "member": 5181,
+        "verified": 5274,
+        "support": 5244,
+        "moderator": 5245,
+        "admin": 5246,
+        "muted": 5247
+      },
+      "channels": {
+        "welcome": 45793,
+        "rules": 45794,
+        "announcements": 45795,
+        "faq": 45796,
+        "status": 45797,
+        "support": 45798,
+        "bugs": 45799,
+        "suggestions": 45800,
+        "commands": 45801,
+        "staff": 45802,
+        "logs": 45803
+      },
+      "createdRoles": [],
+      "createdChannels": [
+        "ekip-sohbet",
+        "yonetim-log"
+      ],
+      "recoveredRoles": [],
+      "recoveredChannels": [
+        "ekip-sohbet",
+        "yonetim-log"
+      ],
+      "ticketPanelPostId": 714951,
+      "seedResult": {
+        "skipped": true,
+        "seeded": [
+          "rules",
+          "announcements",
+          "faq",
+          "status",
+          "commands",
+          "bugs",
+          "suggestions"
+        ]
+      },
+      "welcomeRepair": {
+        "groupId": 6875,
+        "channelId": 45793,
+        "botUserId": 25469,
+        "test": null
+      },
+      "verification": {
+        "ok": false,
+        "checkedAt": "2026-07-23T18:51:36.310Z",
+        "missingRoles": [],
+        "missingChannels": [],
+        "staleSettingChannels": [
+          "leave=45803",
+          "logs=45803"
+        ],
+        "issues": [
+          "Geçersiz kanal ayarı: leave=45803",
+          "Geçersiz kanal ayarı: logs=45803"
+        ],
+        "roleCount": 7,
+        "channelCount": 10,
+        "roles": {
+          "member": 5181,
+          "verified": 5274,
+          "support": 5244,
+          "moderator": 5245,
+          "admin": 5246,
+          "muted": 5247
+        },
+        "channels": {
+          "welcome": 45793,
+          "rules": 45794,
+          "announcements": 45795,
+          "faq": 45796,
+          "status": 45797,
+          "support": 45798,
+          "bugs": 45799,
+          "suggestions": 45800,
+          "commands": 45801,
+          "staff": 45802,
+          "logs": 45803
+        }
+      },
+      "installedBy": 25426,
+      "botUserId": 25469,
+      "backupId": "6875-1784832632991-dfce3f",
+      "installedAt": "2026-07-23T18:51:36.316Z"
+    }
+  },
+  {
+    "id": "1784832701443-4b6c20",
+    "type": "system.repair",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T18:51:41.443Z",
+    "data": {
+      "actorUserId": 25426,
+      "backupId": "6875-1784832632955-4b8bd6",
+      "actions": [
+        "Destek şablonu doğrulandı ve eksikler tamamlandı."
+      ],
+      "score": 50
+    }
+  },
+  {
+    "id": "1784834539278-93b598",
+    "type": "backup.create",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T19:22:19.278Z",
+    "data": {
+      "actorUserId": 25426,
+      "backupId": "6875-1784834539259-8a2394",
+      "reason": "pre-system-repair",
+      "label": "Sistem onarımı öncesi otomatik yedek"
+    }
+  },
+  {
+    "id": "1784834539307-a93497",
+    "type": "backup.create",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T19:22:19.307Z",
+    "data": {
+      "actorUserId": 25426,
+      "backupId": "6875-1784834539290-7cb8c7",
+      "reason": "pre-template-install",
+      "label": "Destek şablonu v2 öncesi"
+    }
+  },
+  {
+    "id": "1784836067218-3396fc",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-23T19:47:47.218Z",
+    "data": {
+      "targetUserId": 25426,
+      "memberCount": 4,
+      "source": "manual-test"
+    }
+  },
+  {
+    "id": "1784837285695-8d8883",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-23T20:08:05.695Z",
+    "data": {
+      "targetUserId": 25426,
+      "memberCount": 4,
+      "source": "manual-test"
+    }
+  },
+  {
+    "id": "1784837349782-54031f",
+    "type": "settings.menu_toggle",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T20:09:09.782Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "welcome.cardEnabled",
+      "value": false
+    }
+  },
+  {
+    "id": "1784837363523-9fed70",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-23T20:09:23.523Z",
+    "data": {
+      "targetUserId": 25426,
+      "memberCount": 4,
+      "source": "manual-test"
+    }
+  },
+  {
+    "id": "1784837377181-0de627",
+    "type": "settings.menu_toggle",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T20:09:37.181Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "welcome.cardEnabled",
+      "value": true
+    }
+  },
+  {
+    "id": "1784837381143-f43e36",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-23T20:09:41.143Z",
+    "data": {
+      "targetUserId": 25426,
+      "memberCount": 4,
+      "source": "manual-test"
+    }
+  },
+  {
+    "id": "1784837428204-9e23ca",
+    "type": "moderation.post_delete",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T20:10:28.204Z",
+    "data": {
+      "actorUserId": 25426,
+      "postId": 30
+    }
+  },
+  {
+    "id": "1784837895111-3cb690",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-23T20:18:15.111Z",
+    "data": {
+      "targetUserId": 25426,
+      "memberCount": 4,
+      "source": "manual-test"
+    }
+  },
+  {
+    "id": "1784838113127-c0fbc1",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-23T20:21:53.127Z",
+    "data": {
+      "targetUserId": 25426,
+      "memberCount": 4,
+      "source": "manual-test"
+    }
+  },
+  {
+    "id": "1784838504530-3cdd07",
+    "type": "backup.create",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T20:28:24.530Z",
+    "data": {
+      "actorUserId": 25426,
+      "backupId": "6875-1784838504501-f78ca5",
+      "reason": "pre-system-repair",
+      "label": "Sistem onarımı öncesi otomatik yedek"
+    }
+  },
+  {
+    "id": "1784838504561-33f523",
+    "type": "backup.create",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T20:28:24.561Z",
+    "data": {
+      "actorUserId": 25426,
+      "backupId": "6875-1784838504541-5c6920",
+      "reason": "pre-template-install",
+      "label": "Destek şablonu v2 öncesi"
+    }
+  },
+  {
+    "id": "1784839342625-fa9055",
+    "type": "backup.create",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T20:42:22.625Z",
+    "data": {
+      "actorUserId": 25426,
+      "backupId": "6875-1784839342593-0879cd",
+      "reason": "pre-template-install",
+      "label": "Destek şablonu v3 öncesi"
+    }
+  },
+  {
+    "id": "1784839580203-5a2a88",
+    "type": "level.xp_change",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-23T20:46:20.203Z",
+    "data": {
+      "targetUserId": 25426,
+      "delta": 100,
+      "source": "menu:25426",
+      "beforeLevel": 0,
+      "afterLevel": 1,
+      "xp": 100,
+      "roleRewards": [],
+      "badgeRewards": []
+    }
+  },
+  {
+    "id": "1784839584568-a99ded",
+    "type": "level.xp_change",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-23T20:46:24.568Z",
+    "data": {
+      "targetUserId": 25426,
+      "delta": 100,
+      "source": "menu:25426",
+      "beforeLevel": 1,
+      "afterLevel": 1,
+      "xp": 200,
+      "roleRewards": [],
+      "badgeRewards": []
+    }
+  },
+  {
+    "id": "1784839585966-853ba4",
+    "type": "level.xp_change",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-23T20:46:25.966Z",
+    "data": {
+      "targetUserId": 25426,
+      "delta": 100,
+      "source": "menu:25426",
+      "beforeLevel": 1,
+      "afterLevel": 1,
+      "xp": 300,
+      "roleRewards": [],
+      "badgeRewards": []
+    }
+  },
+  {
+    "id": "1784839589764-d25b77",
+    "type": "level.reward_sync",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-23T20:46:29.764Z",
+    "data": {
+      "targetUserId": 25426,
+      "level": 1,
+      "source": "menu:25426",
+      "roles": [],
+      "badges": [],
+      "roleFailures": [],
+      "badgeFailures": []
+    }
+  },
+  {
+    "id": "1784839592775-a82fa3",
+    "type": "level.reward_sync",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-23T20:46:32.775Z",
+    "data": {
+      "targetUserId": 25426,
+      "level": 1,
+      "source": "bulk-sync",
+      "roles": [],
+      "badges": [],
+      "roleFailures": [],
+      "badgeFailures": []
+    }
+  },
+  {
+    "id": "1784839745384-1b2b68",
+    "type": "settings.menu_toggle",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T20:49:05.384Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "leveling.cardEnabled",
+      "value": true
+    }
+  },
+  {
+    "id": "1784839901875-0058e0",
+    "type": "backup.create",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T20:51:41.875Z",
+    "data": {
+      "actorUserId": 25426,
+      "backupId": "6875-1784839901817-478627",
+      "reason": "pre-template-install",
+      "label": "Destek şablonu v3 öncesi"
+    }
+  },
+  {
+    "id": "1784839937351-3b1fc0",
+    "type": "template.support.install",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": null,
+    "createdAt": "2026-07-23T20:52:17.351Z",
+    "data": {
+      "groupId": 6875,
+      "version": 3,
+      "roles": {
+        "member": 5181,
+        "verified": 5274,
+        "support": 5244,
+        "moderator": 5245,
+        "admin": 5246,
+        "muted": 5247
+      },
+      "channels": {
+        "welcome": 45793,
+        "guide": 45945,
+        "rules": 45794,
+        "announcements": 45795,
+        "updates": 45946,
+        "faq": 45796,
+        "status": 45797,
+        "general": 45947,
+        "support": 45798,
+        "bugs": 45799,
+        "suggestions": 45800,
+        "commands": 45801,
+        "staffAnnouncements": 45948,
+        "staff": 45802,
+        "staffCommands": 45949,
+        "ticketLogs": 45950,
+        "moderationLogs": 45951,
+        "logs": 45803
+      },
+      "createdRoles": [],
+      "createdChannels": [],
+      "recoveredRoles": [],
+      "recoveredChannels": [
+        "ekip-duyuru",
+        "ekip-sohbet",
+        "ekip-komut",
+        "ticket-log",
+        "moderasyon-log",
+        "yonetim-log"
+      ],
+      "ticketPanelPostId": 714951,
+      "seedResult": {
+        "skipped": false,
+        "seeded": [
+          "rules",
+          "announcements",
+          "faq",
+          "status",
+          "commands",
+          "bugs",
+          "suggestions",
+          "guide",
+          "updates",
+          "staff-announcements",
+          "staff-commands",
+          "ticket-logs",
+          "moderation-logs",
+          "system-logs"
+        ],
+        "added": [
+          "guide",
+          "updates",
+          "staff-announcements",
+          "staff-commands",
+          "ticket-logs",
+          "moderation-logs",
+          "system-logs"
+        ]
+      },
+      "welcomeRepair": {
+        "groupId": 6875,
+        "channelId": 45793,
+        "botUserId": 25469,
+        "test": null
+      },
+      "verification": {
+        "ok": true,
+        "checkedAt": "2026-07-23T20:52:17.342Z",
+        "missingRoles": [],
+        "missingChannels": [],
+        "staleSettingChannels": [],
+        "issues": [],
+        "roleCount": 7,
+        "channelCount": 19,
+        "directlyResolvedRoles": [],
+        "directlyResolvedChannels": [
+          45948,
+          45802,
+          45949,
+          45950,
+          45951,
+          45803
+        ],
+        "roles": {
+          "member": 5181,
+          "verified": 5274,
+          "support": 5244,
+          "moderator": 5245,
+          "admin": 5246,
+          "muted": 5247
+        },
+        "channels": {
+          "welcome": 45793,
+          "guide": 45945,
+          "rules": 45794,
+          "announcements": 45795,
+          "updates": 45946,
+          "faq": 45796,
+          "status": 45797,
+          "general": 45947,
+          "support": 45798,
+          "bugs": 45799,
+          "suggestions": 45800,
+          "commands": 45801,
+          "staffAnnouncements": 45948,
+          "staff": 45802,
+          "staffCommands": 45949,
+          "ticketLogs": 45950,
+          "moderationLogs": 45951,
+          "logs": 45803
+        }
+      },
+      "installedBy": 25426,
+      "botUserId": 25469,
+      "backupId": "6875-1784839901817-478627",
+      "installedAt": "2026-07-23T20:52:17.346Z"
+    }
+  },
+  {
+    "id": "1784839957286-ab04f0",
+    "type": "ticket.open",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-23T20:52:37.286Z",
+    "data": {
+      "targetUserId": 25426,
+      "ticketId": 3,
+      "channelId": 45952,
+      "subject": "test"
+    }
+  },
+  {
+    "id": "1784839973397-e96a08",
+    "type": "ticket.close",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-23T20:52:53.397Z",
+    "data": {
+      "actorUserId": 25426,
+      "targetUserId": 25426,
+      "ticketId": 3,
+      "channelId": 45952
+    }
+  },
+  {
+    "id": "1784918545280-091545",
+    "type": "backup.create",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": null,
+    "createdAt": "2026-07-24T18:42:25.280Z",
+    "data": {
+      "actorUserId": null,
+      "backupId": "6875-1784918545232-e9372f",
+      "reason": "scheduled",
+      "label": "Otomatik zamanlanmış yedek"
+    }
+  },
+  {
+    "id": "1784919593575-a1b48b",
+    "type": "role.autorole",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 24979,
+    "createdAt": "2026-07-24T18:59:53.575Z",
+    "data": {
+      "targetUserId": 24979,
+      "roleIds": [
+        5181
+      ]
+    }
+  },
+  {
+    "id": "1784919594519-da1999",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 24979,
+    "createdAt": "2026-07-24T18:59:54.519Z",
+    "data": {
+      "targetUserId": 24979,
+      "memberCount": 5,
+      "source": "group/join"
+    }
+  },
+  {
+    "id": "1784920434525-99c497",
+    "type": "settings.menu_toggle",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-24T19:13:54.525Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "welcome.dmEnabled",
+      "value": false
+    }
+  },
+  {
+    "id": "1784920518263-09b3d3",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-24T19:15:18.263Z",
+    "data": {
+      "targetUserId": 25426,
+      "memberCount": 5,
+      "source": "manual-test"
+    }
+  },
+  {
+    "id": "1784920558118-b4bade",
+    "type": "settings.menu_toggle",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-24T19:15:58.118Z",
+    "data": {
+      "actorUserId": 25426,
+      "key": "welcome.embedEnabled",
+      "value": false
+    }
+  },
+  {
+    "id": "1784920589038-fddcac",
+    "type": "member.leave",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 24979,
+    "createdAt": "2026-07-24T19:16:29.038Z",
+    "data": {
+      "targetUserId": 24979
+    }
+  },
+  {
+    "id": "1784920608396-8faa7f",
+    "type": "role.autorole",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 24979,
+    "createdAt": "2026-07-24T19:16:48.396Z",
+    "data": {
+      "targetUserId": 24979,
+      "roleIds": [
+        5181
+      ]
+    }
+  },
+  {
+    "id": "1784920608706-4c2236",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 24979,
+    "createdAt": "2026-07-24T19:16:48.706Z",
+    "data": {
+      "targetUserId": 24979,
+      "memberCount": 5,
+      "source": "group/join"
+    }
+  },
+  {
+    "id": "1784926948992-e85c9e",
+    "type": "member.leave",
+    "groupId": 3253,
+    "actorUserId": null,
+    "targetUserId": 26262,
+    "createdAt": "2026-07-24T21:02:28.992Z",
+    "data": {
+      "targetUserId": 26262
+    }
+  },
+  {
+    "id": "1784928620725-a7daf4",
+    "type": "member.join",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 20574,
+    "createdAt": "2026-07-24T21:30:20.725Z",
+    "data": {
+      "targetUserId": 20574,
+      "memberCount": 5,
+      "source": "manual-test"
+    }
+  },
+  {
+    "id": "1784929008507-af8d0b",
+    "type": "ticket.open",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 20574,
+    "createdAt": "2026-07-24T21:36:48.507Z",
+    "data": {
+      "targetUserId": 20574,
+      "ticketId": 4,
+      "channelId": 46513,
+      "subject": "Panel üzerinden destek talebi"
+    }
+  },
+  {
+    "id": "1784930443056-5887d8",
+    "type": "level.up",
+    "groupId": 6875,
+    "actorUserId": null,
+    "targetUserId": 25426,
+    "createdAt": "2026-07-24T22:00:43.056Z",
+    "data": {
+      "targetUserId": 25426,
+      "level": 2,
+      "xp": 406,
+      "roles": [],
+      "badges": []
+    }
+  },
+  {
+    "id": "1784932988089-16d2c0",
+    "type": "backup.create",
+    "groupId": 6875,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-24T22:43:08.089Z",
+    "data": {
+      "actorUserId": 25426,
+      "backupId": "6875-1784932988065-32e366",
+      "reason": "pre-template-rebuild",
+      "label": "Destek şablonu v4 tam sıfırlama öncesi"
+    }
+  },
+  {
+    "id": "1784933733026-908ab2",
+    "type": "backup.create",
+    "groupId": 6991,
+    "actorUserId": 25426,
+    "targetUserId": null,
+    "createdAt": "2026-07-24T22:55:33.026Z",
+    "data": {
+      "actorUserId": 25426,
+      "backupId": "6991-1784933732969-2b1c2f",
+      "reason": "pre-template-rebuild",
+      "label": "Destek şablonu v4 tam sıfırlama öncesi"
+    }
+  },
+  {
+    "id": "1784933934321-fde0ac",
+    "type": "template.support.install",
+    "groupId": 6991,
+    "actorUserId": null,
+    "targetUserId": null,
+    "createdAt": "2026-07-24T22:58:54.321Z",
+    "data": {
+      "groupId": 6991,
+      "version": 4,
+      "roles": {
+        "admin": 5323,
+        "moderator": 5324,
+        "support": 5325,
+        "verified": 5326,
+        "level100": 5327,
+        "level75": 5328,
+        "level50": 5329,
+        "level30": 5330,
+        "level20": 5331,
+        "level10": 5332,
+        "level5": 5333,
+        "level1": 5334,
+        "member": 5335,
+        "muted": 5336
+      },
+      "channels": {
+        "welcome": 46549,
+        "guide": 46550,
+        "rules": 46551,
+        "announcements": 46552,
+        "updates": 46553,
+        "status": 46554,
+        "faq": 46555,
+        "roleGuide": 46556,
+        "leveling": 46557,
+        "general": 46558,
+        "introductions": 46559,
+        "media": 46560,
+        "giveaways": 46561,
+        "support": 46562,
+        "bugs": 46563,
+        "suggestions": 46564,
+        "applications": 46565,
+        "commands": 46566,
+        "staffAnnouncements": 46567,
+        "staff": 46568,
+        "staffCommands": 46569,
+        "ticketLogs": 46570,
+        "moderationLogs": 46571,
+        "logs": 46572
+      },
+      "createdRoles": [
+        "Yönetici",
+        "Moderatör",
+        "Destek Ekibi",
+        "Doğrulanmış",
+        "🏆 Toply Ustası • Seviye 100",
+        "🌌 Efsane • Seviye 75",
+        "👑 Topluluk Tacı • Seviye 50",
+        "💎 Elmas • Seviye 30",
+        "🛡️ Muhafız • Seviye 20",
+        "🔥 Alev • Seviye 10",
+        "⚡ Kıvılcım • Seviye 5",
+        "🌱 İlk Adım • Seviye 1",
+        "Üye",
+        "Susturulmuş"
+      ],
+      "createdChannels": [
+        "hos-geldin",
+        "baslangic-rehberi",
+        "kurallar",
+        "duyurular",
+        "guncellemeler",
+        "sistem-durumu",
+        "sikca-sorulanlar",
+        "rol-rehberi",
+        "seviye-rank",
+        "genel-sohbet",
+        "tanisma",
+        "medya-paylasim",
+        "cekilisler",
+        "destek",
+        "hata-bildirimi",
+        "oneriler",
+        "yetkili-basvuru",
+        "bot-komut",
+        "ekip-duyuru",
+        "ekip-sohbet",
+        "ekip-komut",
+        "ticket-log",
+        "moderasyon-log",
+        "yonetim-log"
+      ],
+      "recoveredRoles": [],
+      "recoveredChannels": [],
+      "privilegedAssignments": {
+        "assigned": [
+          {
+            "userId": 25426,
+            "roleIds": [
+              5322,
+              5323
+            ]
+          },
+          {
+            "userId": 25469,
+            "roleIds": [
+              5322,
+              5323
+            ]
+          }
+        ],
+        "failed": []
+      },
+      "ticketPanelPostId": 718641,
+      "seedResult": {
+        "skipped": false,
+        "seeded": [
+          "guide",
+          "rules",
+          "announcements",
+          "updates",
+          "faq",
+          "status",
+          "role-guide",
+          "leveling",
+          "commands",
+          "giveaways",
+          "media",
+          "applications",
+          "staff-announcements",
+          "staff-commands",
+          "ticket-logs",
+          "moderation-logs",
+          "system-logs",
+          "bugs",
+          "suggestions"
+        ],
+        "added": [
+          "guide",
+          "rules",
+          "announcements",
+          "updates",
+          "faq",
+          "status",
+          "role-guide",
+          "leveling",
+          "commands",
+          "giveaways",
+          "media",
+          "applications",
+          "staff-announcements",
+          "staff-commands",
+          "ticket-logs",
+          "moderation-logs",
+          "system-logs",
+          "bugs",
+          "suggestions"
+        ]
+      },
+      "levelRewards": {
+        "roleRewards": {
+          "1": 5334,
+          "5": 5333,
+          "10": 5332,
+          "20": 5331,
+          "30": 5330,
+          "50": 5329,
+          "75": 5328,
+          "100": 5327
+        },
+        "badgeRewards": {},
+        "assets": {
+          "1": {
+            "level": 1,
+            "sourceName": "level-badge-1-1784840494415-e8b804.svg",
+            "sourcePath": "C:\\Users\\User\\Desktop\\Yeni klasör\\level-badge-1-1784840494415-e8b804.svg",
+            "fileName": "template-level-1-73ef2862a3a9.svg",
+            "path": "C:\\Users\\User\\Desktop\\topluyo-professional-bot-v3.7.0-level-badge-suite\\generated\\cards\\template-level-1-73ef2862a3a9.svg",
+            "url": "https://research-edward-resolutions-pieces.trycloudflare.com/cards/template-level-1-73ef2862a3a9.svg",
+            "emoji": "🌱",
+            "title": "İlk Adım",
+            "accent": "#22C55E",
+            "accent2": "#84CC16"
+          },
+          "5": {
+            "level": 5,
+            "sourceName": "level-badge-5-1784840494519-e54f8b.svg",
+            "sourcePath": "C:\\Users\\User\\Desktop\\Yeni klasör\\level-badge-5-1784840494519-e54f8b.svg",
+            "fileName": "template-level-5-b561605d30c4.svg",
+            "path": "C:\\Users\\User\\Desktop\\topluyo-professional-bot-v3.7.0-level-badge-suite\\generated\\cards\\template-level-5-b561605d30c4.svg",
+            "url": "https://research-edward-resolutions-pieces.trycloudflare.com/cards/template-level-5-b561605d30c4.svg",
+            "emoji": "⚡",
+            "title": "Kıvılcım",
+            "accent": "#2EA8FF",
+            "accent2": "#6366F1"
+          },
+          "10": {
+            "level": 10,
+            "sourceName": "level-badge-10-1784840494605-e40eaa.svg",
+            "sourcePath": "C:\\Users\\User\\Desktop\\Yeni klasör\\level-badge-10-1784840494605-e40eaa.svg",
+            "fileName": "template-level-10-5cb5bf292938.svg",
+            "path": "C:\\Users\\User\\Desktop\\topluyo-professional-bot-v3.7.0-level-badge-suite\\generated\\cards\\template-level-10-5cb5bf292938.svg",
+            "url": "https://research-edward-resolutions-pieces.trycloudflare.com/cards/template-level-10-5cb5bf292938.svg",
+            "emoji": "🔥",
+            "title": "Alev",
+            "accent": "#F97316",
+            "accent2": "#EF4444"
+          },
+          "20": {
+            "level": 20,
+            "sourceName": "level-badge-20-1784840494786-d4e55a.svg",
+            "sourcePath": "C:\\Users\\User\\Desktop\\Yeni klasör\\level-badge-20-1784840494786-d4e55a.svg",
+            "fileName": "template-level-20-ed8326621f0a.svg",
+            "path": "C:\\Users\\User\\Desktop\\topluyo-professional-bot-v3.7.0-level-badge-suite\\generated\\cards\\template-level-20-ed8326621f0a.svg",
+            "url": "https://research-edward-resolutions-pieces.trycloudflare.com/cards/template-level-20-ed8326621f0a.svg",
+            "emoji": "🛡️",
+            "title": "Muhafız",
+            "accent": "#06B6D4",
+            "accent2": "#2563EB"
+          },
+          "30": {
+            "level": 30,
+            "sourceName": "level-badge-30-1784840494886-7dbff0.svg",
+            "sourcePath": "C:\\Users\\User\\Desktop\\Yeni klasör\\level-badge-30-1784840494886-7dbff0.svg",
+            "fileName": "template-level-30-b53b08845662.svg",
+            "path": "C:\\Users\\User\\Desktop\\topluyo-professional-bot-v3.7.0-level-badge-suite\\generated\\cards\\template-level-30-b53b08845662.svg",
+            "url": "https://research-edward-resolutions-pieces.trycloudflare.com/cards/template-level-30-b53b08845662.svg",
+            "emoji": "💎",
+            "title": "Elmas",
+            "accent": "#A855F7",
+            "accent2": "#EC4899"
+          },
+          "50": {
+            "level": 50,
+            "sourceName": "level-badge-50-1784840494987-28c2a4.svg",
+            "sourcePath": "C:\\Users\\User\\Desktop\\Yeni klasör\\level-badge-50-1784840494987-28c2a4.svg",
+            "fileName": "template-level-50-11e592afd08e.svg",
+            "path": "C:\\Users\\User\\Desktop\\topluyo-professional-bot-v3.7.0-level-badge-suite\\generated\\cards\\template-level-50-11e592afd08e.svg",
+            "url": "https://research-edward-resolutions-pieces.trycloudflare.com/cards/template-level-50-11e592afd08e.svg",
+            "emoji": "👑",
+            "title": "Topluluk Tacı",
+            "accent": "#FACC15",
+            "accent2": "#F59E0B"
+          },
+          "75": {
+            "level": 75,
+            "sourceName": "level-badge-75-1784840495160-666422.svg",
+            "sourcePath": "C:\\Users\\User\\Desktop\\Yeni klasör\\level-badge-75-1784840495160-666422.svg",
+            "fileName": "template-level-75-eed51dfce365.svg",
+            "path": "C:\\Users\\User\\Desktop\\topluyo-professional-bot-v3.7.0-level-badge-suite\\generated\\cards\\template-level-75-eed51dfce365.svg",
+            "url": "https://research-edward-resolutions-pieces.trycloudflare.com/cards/template-level-75-eed51dfce365.svg",
+            "emoji": "🌌",
+            "title": "Efsane",
+            "accent": "#8B5CF6",
+            "accent2": "#3B82F6"
+          },
+          "100": {
+            "level": 100,
+            "sourceName": "level-badge-100-1784840495250-fb80ef.svg",
+            "sourcePath": "C:\\Users\\User\\Desktop\\Yeni klasör\\level-badge-100-1784840495250-fb80ef.svg",
+            "fileName": "template-level-100-f64fc163ed15.svg",
+            "path": "C:\\Users\\User\\Desktop\\topluyo-professional-bot-v3.7.0-level-badge-suite\\generated\\cards\\template-level-100-f64fc163ed15.svg",
+            "url": "https://research-edward-resolutions-pieces.trycloudflare.com/cards/template-level-100-f64fc163ed15.svg",
+            "emoji": "🏆",
+            "title": "Toply Ustası",
+            "accent": "#FDE047",
+            "accent2": "#FB7185"
+          }
+        },
+        "created": [],
+        "reused": [],
+        "failed": [
+          {
+            "level": 1,
+            "roleId": 5334,
+            "sourceName": "level-badge-1-1784840494415-e8b804.svg",
+            "message": "Rozet oluşturma başarısız: no enough balance"
+          },
+          {
+            "level": 5,
+            "roleId": 5333,
+            "sourceName": "level-badge-5-1784840494519-e54f8b.svg",
+            "message": "Rozet oluşturma başarısız: no enough balance"
+          },
+          {
+            "level": 10,
+            "roleId": 5332,
+            "sourceName": "level-badge-10-1784840494605-e40eaa.svg",
+            "message": "Rozet oluşturma başarısız: level not found"
+          },
+          {
+            "level": 20,
+            "roleId": 5331,
+            "sourceName": "level-badge-20-1784840494786-d4e55a.svg",
+            "message": "Rozet oluşturma başarısız: level not found"
+          },
+          {
+            "level": 30,
+            "roleId": 5330,
+            "sourceName": "level-badge-30-1784840494886-7dbff0.svg",
+            "message": "Rozet oluşturma başarısız: level not found"
+          },
+          {
+            "level": 50,
+            "roleId": 5329,
+            "sourceName": "level-badge-50-1784840494987-28c2a4.svg",
+            "message": "Rozet oluşturma başarısız: level not found"
+          },
+          {
+            "level": 75,
+            "roleId": 5328,
+            "sourceName": "level-badge-75-1784840495160-666422.svg",
+            "message": "Rozet oluşturma başarısız: level not found"
+          },
+          {
+            "level": 100,
+            "roleId": 5327,
+            "sourceName": "level-badge-100-1784840495250-fb80ef.svg",
+            "message": "Rozet oluşturma başarısız: level not found"
+          }
+        ]
+      },
+      "levelSync": {
+        "total": 0,
+        "succeeded": 0,
+        "failed": [],
+        "results": []
+      },
+      "welcomeRepair": {
+        "groupId": 6991,
+        "channelId": 46549,
+        "botUserId": 25469,
+        "test": null
+      },
+      "verification": {
+        "ok": false,
+        "checkedAt": "2026-07-24T22:58:54.296Z",
+        "missingRoles": [],
+        "missingChannels": [],
+        "staleSettingChannels": [],
+        "missingLevelRoleRewards": [],
+        "missingLevelBadgeRewards": [
+          1,
+          5,
+          10,
+          20,
+          30,
+          50,
+          75,
+          100
+        ],
+        "issues": [
+          "Eksik SVG rozet eşlemesi: Lv.1",
+          "Eksik SVG rozet eşlemesi: Lv.5",
+          "Eksik SVG rozet eşlemesi: Lv.10",
+          "Eksik SVG rozet eşlemesi: Lv.20",
+          "Eksik SVG rozet eşlemesi: Lv.30",
+          "Eksik SVG rozet eşlemesi: Lv.50",
+          "Eksik SVG rozet eşlemesi: Lv.75",
+          "Eksik SVG rozet eşlemesi: Lv.100"
+        ],
+        "roleCount": 15,
+        "channelCount": 24,
+        "directlyResolvedRoles": [],
+        "directlyResolvedChannels": [],
+        "roles": {
+          "admin": 5323,
+          "moderator": 5324,
+          "support": 5325,
+          "verified": 5326,
+          "level100": 5327,
+          "level75": 5328,
+          "level50": 5329,
+          "level30": 5330,
+          "level20": 5331,
+          "level10": 5332,
+          "level5": 5333,
+          "level1": 5334,
+          "member": 5335,
+          "muted": 5336
+        },
+        "channels": {
+          "welcome": 46549,
+          "guide": 46550,
+          "rules": 46551,
+          "announcements": 46552,
+          "updates": 46553,
+          "status": 46554,
+          "faq": 46555,
+          "roleGuide": 46556,
+          "leveling": 46557,
+          "general": 46558,
+          "introductions": 46559,
+          "media": 46560,
+          "giveaways": 46561,
+          "support": 46562,
+          "bugs": 46563,
+          "suggestions": 46564,
+          "applications": 46565,
+          "commands": 46566,
+          "staffAnnouncements": 46567,
+          "staff": 46568,
+          "staffCommands": 46569,
+          "ticketLogs": 46570,
+          "moderationLogs": 46571,
+          "logs": 46572
+        }
+      },
+      "installedBy": 25426,
+      "botUserId": 25469,
+      "backupId": "6991-1784933732969-2b1c2f",
+      "installedAt": "2026-07-24T22:58:54.303Z"
+    }
+  },
+  {
+    "id": "1784934183280-6f8f07",
+    "type": "backup.create",
+    "groupId": 6991,
+    "actorUserId": null,
+    "targetUserId": null,
+    "createdAt": "2026-07-24T23:03:03.280Z",
+    "data": {
+      "actorUserId": null,
+      "backupId": "6991-1784934183216-04c43d",
+      "reason": "scheduled",
+      "label": "Otomatik zamanlanmış yedek"
+    }
+  }
+]

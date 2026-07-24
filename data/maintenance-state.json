@@ -1,0 +1,16 @@
+{
+  "6875": {
+    "lastBackupAt": "2026-07-24T18:42:25.232Z",
+    "lastBackupId": "6875-1784918545232-e9372f",
+    "lastHealthAt": "2026-07-24T18:42:26.520Z",
+    "lastHealthScore": 100,
+    "lastAlertAt": "2026-07-23T18:37:23.690Z"
+  },
+  "6991": {
+    "lastBackupAt": "2026-07-24T23:03:03.216Z",
+    "lastBackupId": "6991-1784934183216-04c43d",
+    "lastHealthAt": "2026-07-24T23:03:03.640Z",
+    "lastHealthScore": 44,
+    "lastAlertAt": "2026-07-24T23:03:03.175Z"
+  }
+}

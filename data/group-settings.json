@@ -1,0 +1,291 @@
+{
+  "6875": {
+    "channels": {
+      "welcome": "45793",
+      "leave": "45803",
+      "logs": "45803",
+      "ticketLogs": "45950",
+      "moderationLogs": "45951",
+      "announcements": "45795",
+      "levels": "",
+      "tickets": "45798",
+      "giveaways": "",
+      "social": "45795",
+      "polls": "45800",
+      "statistics": "45797",
+      "system": "45797"
+    },
+    "welcome": {
+      "enabled": true,
+      "message": "Aramıza hoş geldin, {userName}! Kuralları okuyup destek için #destek kanalını kullanabilirsin.",
+      "dmEnabled": false,
+      "dmMessage": "{groupName} sunucusuna hoş geldin. Kuralları okuyup destek kanalından yardım alabilirsin.",
+      "embedEnabled": false,
+      "cardEnabled": true,
+      "background": "#071327",
+      "accent": "#2EA8FF",
+      "showAvatar": true,
+      "showServerInfo": false
+    },
+    "leave": {
+      "enabled": true,
+      "message": "Kullanıcı #{userId} sunucudan ayrıldı."
+    },
+    "autorole": {
+      "enabled": true,
+      "roleIds": [
+        5181
+      ],
+      "removeRoleIds": []
+    },
+    "selfRoles": [],
+    "rolePanels": [],
+    "registration": {
+      "enabled": false,
+      "roleIds": [
+        5274
+      ]
+    },
+    "moderation": {
+      "enabled": true,
+      "antiSpam": true,
+      "antiFlood": true,
+      "spamMessageCount": 5,
+      "spamIntervalSeconds": 7,
+      "duplicateMessageCount": 3,
+      "duplicateIntervalSeconds": 20,
+      "blockLinks": false,
+      "allowedDomains": [
+        "topluyo.com"
+      ],
+      "bannedDomains": [],
+      "bannedWords": [],
+      "capsFilter": true,
+      "capsPercent": 85,
+      "capsMinLength": 16,
+      "mentionSpam": true,
+      "mentionLimit": 5,
+      "slowmodeSeconds": 2,
+      "autoKickAtWarnings": 5,
+      "autoTimeoutAtWarnings": 3,
+      "autoTimeoutMinutes": 10,
+      "muteRoleId": 5247,
+      "deleteViolations": true
+    },
+    "leveling": {
+      "enabled": true,
+      "xpPerMessage": 10,
+      "xpMin": 8,
+      "xpMax": 12,
+      "multiplier": 1,
+      "cooldownSeconds": 60,
+      "minMessageLength": 3,
+      "dailyXpCap": 0,
+      "curveBaseXp": 100,
+      "curveExponent": 2,
+      "ignoredChannelIds": [],
+      "announceLevelUp": true,
+      "levelUpMessage": "⭐ Tebrikler kullanıcı #{userId}! Seviye {level} oldun.",
+      "roleRewards": {},
+      "badgeRewards": {},
+      "cardEnabled": true,
+      "cardAccent": "#7c5cff"
+    },
+    "giveaways": {
+      "enabled": true
+    },
+    "tickets": {
+      "enabled": true,
+      "staffRoleIds": [
+        5244,
+        5245,
+        5246
+      ],
+      "channelPrefix": "ticket",
+      "createPrivateChannel": true,
+      "deleteChannelOnClose": false,
+      "welcomeMessage": "Destek talebin açıldı. Destek ekibi en kısa sürede dönüş yapacak."
+    },
+    "customCommands": {
+      "enabled": true
+    },
+    "automations": {
+      "enabled": true,
+      "keywordReplies": [
+        {
+          "trigger": "nasıl destek alırım",
+          "response": "Destek için #45798 kanalını kullan veya !ticket aç <sorun> yaz.",
+          "exact": false
+        },
+        {
+          "trigger": "bot çalışmıyor",
+          "response": "Önce !sistemkontrol komutuyla durumu kontrol et; çözülmezse ticket aç.",
+          "exact": false
+        }
+      ],
+      "scheduledMessages": []
+    },
+    "social": {
+      "enabled": true,
+      "pollMinutes": 5
+    },
+    "polls": {
+      "enabled": true
+    },
+    "maintenance": {
+      "autoBackupEnabled": true,
+      "autoBackupHours": 24,
+      "healthAlerts": true,
+      "healthCheckHours": 6,
+      "maxBackups": 20
+    }
+  },
+  "6991": {
+    "channels": {
+      "welcome": "46549",
+      "leave": "46572",
+      "logs": "46572",
+      "ticketLogs": "46570",
+      "moderationLogs": "46571",
+      "announcements": "46552",
+      "levels": "46557",
+      "tickets": "46562",
+      "giveaways": "46561",
+      "social": "46560",
+      "polls": "46564",
+      "statistics": "46554",
+      "system": "46554"
+    },
+    "welcome": {
+      "enabled": true,
+      "message": "Aramıza hoş geldin, {userName}! Kuralları okuyup destek için #destek kanalını kullanabilirsin.",
+      "dmEnabled": true,
+      "dmMessage": "{groupName} sunucusuna hoş geldin. Kuralları okuyup destek kanalından yardım alabilirsin.",
+      "embedEnabled": true,
+      "cardEnabled": true,
+      "background": "#071327",
+      "accent": "#2EA8FF",
+      "showAvatar": true,
+      "showServerInfo": false
+    },
+    "leave": {
+      "enabled": true,
+      "message": "Kullanıcı #{userId} sunucudan ayrıldı."
+    },
+    "autorole": {
+      "enabled": true,
+      "roleIds": [
+        5335
+      ],
+      "removeRoleIds": []
+    },
+    "selfRoles": [],
+    "rolePanels": [],
+    "registration": {
+      "enabled": false,
+      "roleIds": [
+        5326
+      ]
+    },
+    "moderation": {
+      "enabled": true,
+      "antiSpam": true,
+      "antiFlood": true,
+      "spamMessageCount": 5,
+      "spamIntervalSeconds": 7,
+      "duplicateMessageCount": 3,
+      "duplicateIntervalSeconds": 20,
+      "blockLinks": false,
+      "allowedDomains": [],
+      "bannedDomains": [],
+      "bannedWords": [],
+      "capsFilter": true,
+      "capsPercent": 85,
+      "capsMinLength": 16,
+      "mentionSpam": true,
+      "mentionLimit": 5,
+      "slowmodeSeconds": 0,
+      "autoKickAtWarnings": 5,
+      "autoTimeoutAtWarnings": 3,
+      "autoTimeoutMinutes": 10,
+      "muteRoleId": 5336,
+      "deleteViolations": true
+    },
+    "leveling": {
+      "enabled": true,
+      "xpPerMessage": 10,
+      "xpMin": 8,
+      "xpMax": 12,
+      "multiplier": 1,
+      "cooldownSeconds": 45,
+      "minMessageLength": 3,
+      "dailyXpCap": 0,
+      "curveBaseXp": 100,
+      "curveExponent": 2,
+      "ignoredChannelIds": [],
+      "announceLevelUp": true,
+      "levelUpMessage": "⭐ Tebrikler kullanıcı #{userId}! Seviye {level} oldun.",
+      "roleRewards": {
+        "1": 5334,
+        "5": 5333,
+        "10": 5332,
+        "20": 5331,
+        "30": 5330,
+        "50": 5329,
+        "75": 5328,
+        "100": 5327
+      },
+      "badgeRewards": {},
+      "cardEnabled": true,
+      "cardAccent": "#7C5CFF"
+    },
+    "giveaways": {
+      "enabled": true
+    },
+    "tickets": {
+      "enabled": true,
+      "staffRoleIds": [
+        5325,
+        5324,
+        5323
+      ],
+      "channelPrefix": "ticket",
+      "createPrivateChannel": true,
+      "deleteChannelOnClose": false,
+      "welcomeMessage": "Destek talebin açıldı. Destek ekibi en kısa sürede dönüş yapacak."
+    },
+    "customCommands": {
+      "enabled": true
+    },
+    "automations": {
+      "enabled": true,
+      "keywordReplies": [
+        {
+          "trigger": "nasıl destek alırım",
+          "response": "Destek için #46562 kanalını kullan veya !ticket aç <sorun> yaz.",
+          "exact": false
+        },
+        {
+          "trigger": "bot çalışmıyor",
+          "response": "Önce !sistemkontrol komutuyla durumu kontrol et; çözülmezse ticket aç.",
+          "exact": false
+        }
+      ],
+      "scheduledMessages": []
+    },
+    "social": {
+      "enabled": true,
+      "pollMinutes": 5
+    },
+    "polls": {
+      "enabled": true
+    },
+    "maintenance": {
+      "autoBackupEnabled": true,
+      "autoBackupHours": 24,
+      "healthAlerts": true,
+      "healthCheckHours": 6,
+      "maxBackups": 20
+    }
+  }
+}

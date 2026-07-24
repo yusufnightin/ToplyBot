@@ -1,0 +1,25 @@
+[
+  {
+    "id": "1784761553010-5772",
+    "groupId": 6875,
+    "userId": 5772,
+    "reason": "Panel üzerinden uygulandı.",
+    "moderatorUserId": 25426,
+    "createdAt": "2026-07-22T23:05:53.010Z",
+    "expiresAt": "2026-07-22T23:15:53.010Z",
+    "active": false,
+    "expiredAt": "2026-07-22T23:16:01.860Z"
+  },
+  {
+    "id": "1784761644809-8772",
+    "groupId": 6875,
+    "userId": 8772,
+    "reason": "Panel üzerinden uygulandı.",
+    "moderatorUserId": 25426,
+    "createdAt": "2026-07-22T23:07:24.809Z",
+    "expiresAt": "2026-07-22T23:17:24.808Z",
+    "active": false,
+    "unbannedAt": "2026-07-22T23:07:37.209Z",
+    "unbannedBy": 25426
+  }
+]

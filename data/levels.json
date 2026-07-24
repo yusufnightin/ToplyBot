@@ -1,0 +1,30 @@
+{
+  "6875:25426": {
+    "groupId": 6875,
+    "userId": 25426,
+    "xp": 462,
+    "level": 2,
+    "messages": 43,
+    "awardedBadgeIds": [],
+    "daily": {
+      "date": "2026-07-24",
+      "xp": 162
+    },
+    "lastXpAt": "2026-07-24T22:19:08.936Z",
+    "updatedAt": "2026-07-24T22:19:08.936Z"
+  },
+  "6875:20574": {
+    "groupId": 6875,
+    "userId": 20574,
+    "xp": 17,
+    "level": 0,
+    "messages": 10,
+    "awardedBadgeIds": [],
+    "daily": {
+      "date": "2026-07-24",
+      "xp": 17
+    },
+    "lastXpAt": "2026-07-24T21:54:53.445Z",
+    "updatedAt": "2026-07-24T21:54:53.445Z"
+  }
+}

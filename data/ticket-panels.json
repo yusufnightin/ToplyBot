@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "groupId": 6875,
+    "channelId": 44366,
+    "postId": null,
+    "title": "test",
+    "active": false,
+    "createdBy": 25426,
+    "createdAt": "2026-07-22T21:05:28.361Z",
+    "disabledAt": "2026-07-24T22:43:08.263Z",
+    "disabledReason": "support-template-rebuild"
+  },
+  {
+    "id": 2,
+    "groupId": 6875,
+    "channelId": 45441,
+    "postId": 712158,
+    "title": "Destek Merkezi",
+    "active": false,
+    "createdBy": 25426,
+    "createdAt": "2026-07-22T22:54:34.064Z",
+    "template": "support-v1",
+    "disabledAt": "2026-07-24T22:43:08.263Z",
+    "disabledReason": "support-template-rebuild"
+  },
+  {
+    "id": 3,
+    "groupId": 6875,
+    "channelId": 45798,
+    "postId": 714951,
+    "title": "Destek Merkezi",
+    "active": false,
+    "createdBy": 25426,
+    "createdAt": "2026-07-23T18:42:44.632Z",
+    "template": "support-v2",
+    "disabledAt": "2026-07-24T22:43:08.263Z",
+    "disabledReason": "support-template-rebuild"
+  },
+  {
+    "id": 4,
+    "groupId": 6991,
+    "channelId": 46562,
+    "postId": 718641,
+    "title": "Destek Merkezi",
+    "active": true,
+    "createdBy": 25426,
+    "createdAt": "2026-07-24T22:58:53.765Z",
+    "template": "support-v4"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "6875:test": {
+    "name": "test",
+    "title": "tesst",
+    "description": "test",
+    "color": "#ff83c8",
+    "thumbnail": "",
+    "image": "",
+    "footer": "",
+    "fields": [],
+    "buttons": [],
+    "bumoteCode": "",
+    "cardEnabled": true,
+    "interactionOptions": {
+      "oneUsePerUser": false,
+      "maxUses": 0
+    },
+    "createdBy": 25426,
+    "createdAt": "2026-07-24T19:01:51.311Z",
+    "updatedAt": "2026-07-24T19:01:51.311Z"
+  }
+}
